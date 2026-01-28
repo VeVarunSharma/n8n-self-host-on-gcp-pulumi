@@ -63,7 +63,7 @@ flowchart TD
 
 - Google Cloud project with billing enabled.
 - Organization policies that permit adding `allUsers` to Cloud Run (only if you enable public access).
-- Local tooling: `gcloud`, `pulumi` CLI, Node.js 18+ (for Pulumi Node runtime), and `pnpm` or `npm`.
+- Local tooling: `gcloud`, `pulumi` CLI, Node.js 22+ (for Pulumi Node runtime), and `pnpm` or `npm`.
 - Correct Google credentials in your shell (`gcloud auth application-default login` or `GOOGLE_APPLICATION_CREDENTIALS`).
 
 ## Repository Layout
